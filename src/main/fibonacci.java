@@ -8,6 +8,7 @@ import java.util.Random;
 
 public class fibonacci {
 
+//	Throws required in place of Try-Catch block
 	public static void main(String[] args) throws IOException {
 		
 		Random rand = new Random();
@@ -64,18 +65,18 @@ public class fibonacci {
 		out.close();
 	}
 	
-	static void printTime(PrintWriter out, String str, int num, long start, long end) throws IOException {
-		out.write(str + " - X : " + num + ", Y : " + (end - start) + "\n");
-	}
-
 //	Perform Fibonacci sequence through recursion
 	static int fibRecursive(int n) {
 		
+//		if: 0 or 1 returns self
+//		else: calls fibRecursive for two numbers before to return sum
+//			will call back down the fibonacci sequence to 1
+//			and return up the sequence to increase sum
+//			returning final sum to method call withing main method
 		if ((n == 0) || (n == 1))
 			return n;
 		else
 			return fibRecursive(n - 1) + fibRecursive(n - 2);
-		
 	}
 	
 //	Perform Fibonacci sequence through iteration
@@ -92,7 +93,12 @@ public class fibonacci {
 		}
 		
 		return f[n];
-		    
 	}	
+
+//	Call PrintWriter and primitive data types
+//	Throws required in place of Try-Catch block
+	static void printTime(PrintWriter out, String str, int num, long start, long end) throws IOException {
+		out.write(str + " - X : " + num + ", Y : " + (end - start) + "\n");
+	}
 
 }
