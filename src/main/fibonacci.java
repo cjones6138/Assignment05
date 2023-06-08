@@ -15,6 +15,9 @@ public class fibonacci {
 		File myFile = new File("fibonacci_chart.txt");
 		FileWriter myWriter = new FileWriter(myFile, true);
 		
+//		Check if file exists
+//			Create file if does not exist, notify creation of file
+//			Notify if file exists
 		if (myFile.createNewFile()) {
 			System.out.println("File created: " + myFile.getName());
 		} else {
