@@ -82,16 +82,25 @@ public class fibonacci {
 //	Perform Fibonacci sequence through iteration
 	static int fibIterative(int n) {
 		
+//		Create array to loop through for Fibonacci summation
 		int f[] = new int[n + 2]; // 1 extra to handle case, n = 0
 		int i;
-		      
+		
+//		Initiate first two elements of the array
 		f[0] = 0;
 		f[1] = 1;
-		     
+		
+//		Loop through array:
+//			i variable starts at 2;
+//			because the first two indexes of the array have been initialized
+//			if n is a 0 or 1, the loop will not initiate
 		for (i = 2; i <= n; i++) {
 			f[i] = f[i-1] + f[i-2];
 		}
 		
+//		Returning the value in the n place:
+//			if n is 0 or 1, they were initialized as such
+//			if 2 or greater, the loop will result in sum at n place of array
 		return f[n];
 	}	
 
