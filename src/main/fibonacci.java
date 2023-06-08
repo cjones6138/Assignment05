@@ -32,6 +32,14 @@ public class fibonacci {
 		
 		long startTime = 0, endTime = 0;
 			
+//		Loop through Recursive and Iterative methods 20 times
+//			initiating random numbers for each loop iteration
+//			each sequence per method call once per loop iteration:
+//				capture time before method, 
+//				execute recursive/iterative method,
+//				capture end time, 
+//				print value at number place, 
+//				print to file
 		for (i = 0; i < 20; i++) {
 			
 //			Generate random number 1 - 20
