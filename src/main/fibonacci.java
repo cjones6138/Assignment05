@@ -15,7 +15,7 @@ public class fibonacci {
 		File myFile = new File("fibonacci_chart.txt");
 		FileWriter myWriter = new FileWriter(myFile, true);
 		
-//		Check if file exists
+//		Check if file exists:
 //			Create file if does not exist, notify creation of file
 //			Notify if file exists
 		if (myFile.createNewFile()) {
@@ -32,7 +32,7 @@ public class fibonacci {
 		
 		long startTime = 0, endTime = 0;
 			
-//		Loop through Recursive and Iterative methods 20 times
+//		Loop through Recursive and Iterative methods 20 times:
 //			initiating random numbers for each loop iteration
 //			each sequence per method call once per loop iteration:
 //				capture time before method, 
@@ -80,7 +80,7 @@ public class fibonacci {
 	static int fibRecursive(int n) {
 		
 //		if: 0 or 1 returns self
-//		else: calls fibRecursive for two numbers before to return sum
+//		else: calls fibRecursive for two numbers before to return sum;
 //			will call back down the fibonacci sequence to 1
 //			and return up the sequence to increase sum
 //			returning final sum to method call withing main method
@@ -94,25 +94,25 @@ public class fibonacci {
 	static int fibIterative(int n) {
 		
 //		Create array to loop through for Fibonacci summation
-		int f[] = new int[n + 2]; // 1 extra to handle case, n = 0
+		int fibArray[] = new int[n + 2]; // 1 extra to handle case, n = 0
 		int i;
 		
 //		Initiate first two elements of the array
-		f[0] = 0;
-		f[1] = 1;
+		fibArray[0] = 0;
+		fibArray[1] = 1;
 		
 //		Loop through array:
 //			i variable starts at 2;
-//			because the first two indexes of the array have been initialized
+//				because the first two indexes of the array have been initialized
 //			if n is a 0 or 1, the loop will not initiate
 		for (i = 2; i <= n; i++) {
-			f[i] = f[i-1] + f[i-2];
+			fibArray[i] = fibArray[i-1] + fibArray[i-2];
 		}
 		
 //		Returning the value in the n place:
 //			if n is 0 or 1, they were initialized as such
 //			if 2 or greater, the loop will result in sum at n place of array
-		return f[n];
+		return fibArray[n];
 	}	
 
 //	Call PrintWriter and primitive data types
