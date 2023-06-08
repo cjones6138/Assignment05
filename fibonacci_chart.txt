@@ -1,0 +1,60 @@
+Recursive - X : 8, Y : 4200
+Iterative - X : 8, Y : 1900
+
+Recursive - X : 16, Y : 166700
+Iterative - X : 16, Y : 700
+
+Recursive - X : 16, Y : 29400
+Iterative - X : 16, Y : 600
+
+Recursive - X : 16, Y : 7900
+Iterative - X : 16, Y : 700
+
+Recursive - X : 3, Y : 100
+Iterative - X : 3, Y : 500
+
+Recursive - X : 18, Y : 20300
+Iterative - X : 18, Y : 600
+
+Recursive - X : 3, Y : 200
+Iterative - X : 3, Y : 500
+
+Recursive - X : 12, Y : 1500
+Iterative - X : 12, Y : 600
+
+Recursive - X : 12, Y : 1100
+Iterative - X : 12, Y : 900
+
+Recursive - X : 19, Y : 33900
+Iterative - X : 19, Y : 700
+
+Recursive - X : 17, Y : 11300
+Iterative - X : 17, Y : 600
+
+Recursive - X : 9, Y : 300
+Iterative - X : 9, Y : 700
+
+Recursive - X : 2, Y : 200
+Iterative - X : 2, Y : 400
+
+Recursive - X : 3, Y : 200
+Iterative - X : 3, Y : 500
+
+Recursive - X : 12, Y : 1200
+Iterative - X : 12, Y : 600
+
+Recursive - X : 7, Y : 700
+Iterative - X : 7, Y : 800
+
+Recursive - X : 15, Y : 11200
+Iterative - X : 15, Y : 800
+
+Recursive - X : 13, Y : 1900
+Iterative - X : 13, Y : 700
+
+Recursive - X : 2, Y : 200
+Iterative - X : 2, Y : 500
+
+Recursive - X : 7, Y : 300
+Iterative - X : 7, Y : 1100
+
